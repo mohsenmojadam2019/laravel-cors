@@ -1,0 +1,24 @@
+{
+    "name": "timeshow/laravel-cors",
+    "description": "laravel-cors for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "timeshow",
+            "email": "397975896@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^9.0",
+        "illuminate/contracts": "^9.0",
+        "fruitcake/php-cors": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "TimeShow\\Cors\\": "src/"
+        }
+    }
+}

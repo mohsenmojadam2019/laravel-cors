@@ -11,9 +11,9 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.4|^8.0",
-        "illuminate/support": "^9.0",
-        "illuminate/contracts": "^9.0",
+        "php": "^8.0 | ^8.1",
+        "illuminate/support": "^9.0 | ^10.0",
+        "illuminate/contracts": "^9.0 | ^10.0",
         "fruitcake/php-cors": "^1.2"
     },
     "autoload": {

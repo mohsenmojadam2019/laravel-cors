@@ -16,6 +16,22 @@
         "illuminate/contracts": "^9.0 | ^10.0",
         "fruitcake/php-cors": "^1.2"
     },
+    "require-dev": {
+        "laravel/framework": "^9.0 | ^10.0",
+        "phpunit/phpunit": "^9.0 | ^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TimeShow\\Cors\\CorsServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=psr12 src/",
+        "fix-style": "phpcbf -p --standard=psr12 src/"
+    },
     "autoload": {
         "psr-4": {
             "TimeShow\\Cors\\": "src/"

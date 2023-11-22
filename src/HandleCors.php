@@ -3,7 +3,7 @@
 namespace TimeShow\Cors;
 
 use Closure;
-use TimeShow\Cors\CorsService;
+use Fruitcake\Cors\CorsService;
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Foundation\Http\Events\RequestHandled;
 use Illuminate\Http\Request;
